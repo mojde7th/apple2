@@ -11,13 +11,13 @@ nav a {
 nav i {
   color: white !important;
 }
-$height: 2000px;
+
 @mixin backdropheight($height) {
   height: $height;
 }
 @media screen and (min-width: 1400px) {
   // xxl
-
+  $height: 2250px;
   div.parallax {
     height: 700px !important;
     > div > div {
@@ -54,7 +54,7 @@ $height: 2000px;
 }
 @media screen and (min-width: 1200px) and(max-width:1400px) {
   //xl
-
+  $height: 2100px;
   div.parallax {
     height: 700px !important;
     > div > div {
@@ -91,6 +91,7 @@ $height: 2000px;
 }
 @media screen and (min-width: 992px) and(max-width:1200px) {
   //lg
+  $height: 2010px;
   div.parallax {
     height: 700px !important;
 
@@ -125,6 +126,7 @@ $height: 2000px;
 }
 @media screen and (min-width: 768px) and(max-width:992px) {
   //md
+  $height: 1910px;
   div.parallax {
     height: 600px !important;
 
@@ -160,6 +162,7 @@ $height: 2000px;
 }
 @media screen and (min-width: 576px) and(max-width:768px) {
   //sm
+  $height: 2850px;
   div.parallax {
     height: 400px !important;
 
@@ -194,6 +197,7 @@ $height: 2000px;
 }
 @media screen and (max-width: 576px) {
   //xs
+  $height: 2750px;
   div.parallax {
     height: 300px !important;
 
