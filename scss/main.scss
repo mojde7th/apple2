@@ -221,7 +221,7 @@ $height: 2000px;
     grid-template-rows: 400px 400px 400px 400px 400px 400px;
     row-gap: 12px;
     column-gap: 12px;
-    top: 450px !important;
+    top: 350px !important;
     position: absolute;
     padding: 2% !important;
   }
@@ -343,9 +343,7 @@ div.item > figure {
   i {
     font-size: 26px !important;
     &::before {
-     height: 100% !important;
-      
-      
+      height: 100% !important;
     }
   }
 }
