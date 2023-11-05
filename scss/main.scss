@@ -42,7 +42,7 @@ nav i {
   }
   .grid-container {
     display: grid;
-
+    z-index: -1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px 500px 500px;
     row-gap: 12px;
@@ -79,7 +79,7 @@ nav i {
   }
   .grid-container {
     display: grid;
-
+    z-index: -1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 450px 450px 450px;
     row-gap: 12px;
@@ -114,7 +114,7 @@ nav i {
   }
   .grid-container {
     display: grid;
-
+    z-index: -1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 420px 420px 420px;
     row-gap: 12px;
@@ -150,7 +150,7 @@ nav i {
   .grid-container {
     display: grid;
     justify-content: center;
-
+    z-index: -1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 420px 420px 420px;
     row-gap: 12px;
@@ -185,7 +185,7 @@ nav i {
   }
   .grid-container {
     display: grid;
-
+    z-index: -1;
     grid-template-columns: 1fr;
     grid-template-rows: 400px 400px 400px 400px 400px 400px;
     row-gap: 12px;
@@ -220,7 +220,7 @@ nav i {
   }
   .grid-container {
     display: grid;
-
+    z-index: -1;
     grid-template-columns: 1fr;
     grid-template-rows: 400px 400px 400px 400px 400px 400px;
     row-gap: 12px;
