@@ -17,7 +17,7 @@ nav i {
 }
 @media screen and (min-width: 1400px) {
   // xxl
-  $height: 2250px;
+  $height: 2310px;
   div.parallax {
     height: 700px !important;
     > div > div {
@@ -54,7 +54,7 @@ nav i {
 }
 @media screen and (min-width: 1200px) and(max-width:1400px) {
   //xl
-  $height: 2100px;
+  $height: 2160px;
   div.parallax {
     height: 700px !important;
     > div > div {
@@ -91,7 +91,7 @@ nav i {
 }
 @media screen and (min-width: 992px) and(max-width:1200px) {
   //lg
-  $height: 2010px;
+  $height: 2070px;
   div.parallax {
     height: 700px !important;
 
@@ -126,7 +126,7 @@ nav i {
 }
 @media screen and (min-width: 768px) and(max-width:992px) {
   //md
-  $height: 1910px;
+  $height: 1970px;
   div.parallax {
     height: 600px !important;
 
@@ -162,7 +162,7 @@ nav i {
 }
 @media screen and (min-width: 576px) and(max-width:768px) {
   //sm
-  $height: 2850px;
+  $height: 2900px;
   div.parallax {
     height: 400px !important;
 
@@ -197,7 +197,7 @@ nav i {
 }
 @media screen and (max-width: 576px) {
   //xs
-  $height: 2750px;
+  $height: 2800px;
   div.parallax {
     height: 300px !important;
 
